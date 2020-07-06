@@ -16,7 +16,7 @@ import com.java.model.Course;
  * Servlet implementation class CourseServlet
  */
 //@WebServlet("/entercourse")
-@WebServlet(name="entercourse",urlPatterns={"/entercourse"})
+@WebServlet(name="addcourse",urlPatterns={"/addcourse"})
 public class CourseServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
@@ -59,6 +59,7 @@ public class CourseServlet extends HttpServlet {
 		course.setDetails(details);
 		course.setLink(link);
 		course.setSummary(summary);
+		System.out.println("Inside Servlet");
 		
 		try {
 			coursedao.courseSave(course);

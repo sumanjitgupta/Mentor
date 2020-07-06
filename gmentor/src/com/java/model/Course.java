@@ -2,19 +2,19 @@ package com.java.model;
 
 public class Course {
 	
-	private String id;
+	//private String id;
 	private String coursename;
 	private String timeline;
 	private String details;
 	private String link;
 	private String summary;
-	
+/*
 	public String getId() {
 		return id;
 	}
 	public void setId(String id) {
 		this.id = id;
-	}
+	}*/
 	public String getCoursename() {
 		return coursename;
 	}

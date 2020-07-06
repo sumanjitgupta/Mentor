@@ -9,7 +9,7 @@
 <body>
 <div align="center">
 <h1>Enter Course Details</h1>
- <form action = "<%= request.getContextPath() %>/entercourse" method="post">
+ <form action = "<%= request.getContextPath() %>/addcourse" method="post">
    <table>
 	<tr>
 	<td>Course-Name</td>
